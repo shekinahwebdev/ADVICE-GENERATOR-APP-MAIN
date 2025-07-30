@@ -7,6 +7,10 @@ const App = () => {
         "it is easy to sit up and take notice, what's difficult is getting up
         and taking action."
       </p>
+
+      <div className="press_button"></div>
+
+      <div className=""></div>
     </main>
   );
 };
