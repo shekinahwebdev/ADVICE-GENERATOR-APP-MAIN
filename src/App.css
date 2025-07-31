@@ -25,12 +25,12 @@ body {
 }
 
 .main_app {
-  border: 2px solid red;
   background-color: var(--Blue-900);
   text-align: center;
-  padding: 2rem 1.2rem;
+  padding: 2rem 0rem;
   max-width: 500px;
   width: 100%;
+  border-radius: 10px;
 }
 
 .main_title {
@@ -43,12 +43,32 @@ body {
 .main_subtitle {
   font-size: 28px;
   color: var(--Blue-200);
-  padding: 0rem 1rem;
+  padding: 0rem 3rem;
   margin-top: 2rem;
   font-weight: bold;
   line-height: 1.5;
 }
 
 .divider {
-  border: 2px solid red;
+  padding: 2rem 0rem 3rem;
+}
+
+.divider_pattern {
+  width: 80%;
+}
+
+.dice_button_icon {
+  width: 35px;
+}
+
+.switch_button {
+  border: none;
+  outline: none;
+  padding: 1.5rem;
+  background-color: var(--Green-300);
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 66%;
+  cursor: pointer;
 }

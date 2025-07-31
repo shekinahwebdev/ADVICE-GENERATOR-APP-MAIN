@@ -13,11 +13,16 @@ const App = () => {
         <picture>
           <source
             media="(min-width: 768px)"
-            srcSet="/images/pattern-divider-desktop.svg"
+            srcSet="/assets/images/pattern-divider-desktop.svg"
           />
           <source
             media="(max-width: 767px)"
-            srcSet="/images/pattern-divider-mobile.svg"
+            srcSet="/assets/images/pattern-divider-mobile.svg"
+          />
+          <img
+            src="/assets/images/pattern-divider-desktop.svg"
+            alt="divider pattern"
+            className="divider_pattern"
           />
         </picture>
       </div>
