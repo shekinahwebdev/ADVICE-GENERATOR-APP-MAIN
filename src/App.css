@@ -31,6 +31,7 @@ body {
   max-width: 500px;
   width: 100%;
   border-radius: 10px;
+  position: relative;
 }
 
 .main_title {
@@ -69,6 +70,11 @@ body {
   border-radius: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 66%;
+  top: 100%;
   cursor: pointer;
+}
+
+.switch_button:hover {
+  box-shadow: 0 0 20px var(--Green-300), 0 0 30px var(--Green-300);
+  transition: all 0.2s ease;
 }
