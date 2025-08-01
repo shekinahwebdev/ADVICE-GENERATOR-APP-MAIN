@@ -87,4 +87,8 @@ body {
   .switch_button {
     top: calc(100% - 0.5rem);
   }
+
+  .dice_button_icon {
+    width: 35px;
+  }
 }
