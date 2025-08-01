@@ -19,6 +19,7 @@ const App = () => {
     }
     setClicked(false);
   };
+
   return (
     <main className="main_app">
       <h1 className="main_title">Advice #117</h1>
